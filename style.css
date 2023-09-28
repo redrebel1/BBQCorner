@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;;
+
+}
+
+body{
+    min-height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+.mainsection{
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 50px 100px;
+
+}
+
+.header{
+    position: fixed;
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 247, 247);
+    z-index: 99;
+    top: 0;
+    left: 0;
+}
+
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 20px;
+    color: black;
+    
+
+}
+
+.navbar a:hover{
+    color: orange;
+}
+
+.logo{
+    font-size: 2em;
+    cursor: default;
+}
+.logo span{
+    color: orangered;
+}
+
+.loginbtn{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.loginbtn:hover{
+    width: 130px;
+    height: 50px;
+    color: white;
+    background: black;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    transition: .3s;
+
+}
+    
+
+
+.headp{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 190px;
+    padding-top: 30px;
+
+}
+
+.headp h1{
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+}
+.headp p{
+    font-size: larger;
+    color: white;
+
+}
+.headp span{
+    color: orangered;
+}
+.headbtns{
+    display: inline-flex;
+    margin-top: px;
+}
+
+.aboutusbtn{
+    width: 160px;
+    height: 50px;
+    background: rgb(253, 247, 247);
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    transition: .3s;
+}
+.aboutusbtn:hover{
+    color: white;
+    background-color: transparent;
+    border: white 1px solid;
+    transition: .3s;
+}
+
+
+.showmenubtn{
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(253, 247, 247);
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}
+
+.showmenubtn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: .3s;
+}
+
+.section1{
+    position: relative;
+    margin: 10px;
+    min-height: 100vh;
+
+
+}
+.gridcontainer{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 90px;
+    column-gap: 90px;
+    margin: 90px 120px;
+    padding: 20px 20px;
+
+}
+.test{
+    position: absolute;
+}
+
+.gridcontainer img{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    transition: .3s;
+}
+.gridcontainer img:hover{
+
+    box-shadow: 0px 0px 2px 2px rgba(255, 68, 0, 0.664);
+    transition: .3s;
+
+}
+
+.gridh2{
+    font-weight: bold;
+    margin: 25px 0px;
+    cursor: pointer;
+    
+}
+
+.gridh2 span{
+    color: orangered;
+}
+
+.gridp{
+    padding-right: 30px;
+}
+
+.showallbtn{
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    color: black;
+    transition: .3s;
+}
+
+.showallbtn:hover{
+    color: orangered;
+    border: orangered 1px solid;
+    transition: .3s;
+}
+
+.section2{
+    min-height:60vh;
+    margin-top: 1100px;
+    position: relative;
+    display: grid;
+    background-color:rgb(53, 51, 51) ;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    padding-top: 30px;
+    background-image: url(./background2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.reservep{
+    color: white;
+    font-family: 'Caveat', cursive;
+
+}
+
+.reserveimg img{
+    height: auto;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: -10px;
+}
+
+.reserveh2{
+    color: white;
+
+}
+
+.callusp{
+    color: white;
+}
+
+.reservegrid{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+
+.reserveonlinebtn{
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+
+}
+
+
+
+.reserveonlinebtn:hover{
+    background-color: white;
+    color: black;
+    transition: .3s;
+}
+
+
+.section3{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+
+}
+
+.visitus{
+    margin-left: 130px;
+    margin-top: 20px;
+    height: 400px;
+    width: 450px;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0 5px 2px rgba(128, 128, 128, 0.144);
+}
+
+.visitusspan{
+    font-family: 'Kaushan Script', cursive;
+    border: 0px;
+    color: rgb(255, 68, 0);
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.visitush1{
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.getlocation {
+    font-weight: bolder;
+    color: rgb(255, 68, 0);
+    border-bottom: 2px solid rgb(255, 68, 0);
+    text-decoration: none;
+    transition: .3s;
+}
+.getlocation:hover{
+    padding: 0px 3px ;
+    transition: .3s;
+
+}
+
+.visitimg img {
+    height: 430px;
+    width: 250px;
+    display: inline-block;
+    margin-left: -40px;
+    transition: .3s;
+
+}
+
+
+
+.visituscontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.visitgrid2{
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.footer{
+    margin-top: 50px;
+    height: 35vh;
+    background-color: rgb(247, 237, 237);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
